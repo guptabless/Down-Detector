@@ -1,11 +1,26 @@
 # Down-Detector
 ## A simple script to check whether the website is down or not.
-# "Usage: python downornot.py and then provide the URL"
 
-# "Please provide the full URL including http:// or https://"
+## Requirments:
 
+### packages 
 
-## Requirments
-### Python 3.x
-### Packagke Required: urllib 
-### To install type ```pip install urllib3``` in terminal
+- urllib.request
+- sys , argparse
+- bcolors
+
+### python > 3.x 
+
+## usage: 
+
+downornot.py  -u < Valid URL which you want to check >
+
+OPTIONS: 
+
+```
+-h             --help    
+             	 < show the available options >
+-u            valid with https:// or http:/
+  		< Url which you want to check >
+```
+
